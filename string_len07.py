@@ -8,4 +8,12 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    k=[]
+    if len(s1)%2==1:
+        k.append("s1")
+    if len(s2)%2==1:
+        k.append("s2")
+    if len(s3)%2==1:
+        k.append("s3")
+    return  k
+print(main("123","qwer","asdf"))
